@@ -1,0 +1,5 @@
+package com.oak.productlist.repository;
+
+public class ProductRepository {
+
+}

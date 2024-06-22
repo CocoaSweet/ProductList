@@ -1,0 +1,5 @@
+package com.oak.productlist.service;
+
+public interface ProductService {
+
+}
