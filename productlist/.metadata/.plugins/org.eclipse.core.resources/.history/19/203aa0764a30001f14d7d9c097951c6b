@@ -1,0 +1,8 @@
+##connect to database
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.application.name=productlist
+spring.datasource.url=jdbc:postgresql://localhost:5432/OAK
+spring.datasource.username=postgres
+spring.datasource.password=Sant123456
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect

@@ -1,0 +1,4 @@
+spring.application.name=productlist
+spring.datasource.url=jdbc:postgresql://localhost:5432/productlist
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
