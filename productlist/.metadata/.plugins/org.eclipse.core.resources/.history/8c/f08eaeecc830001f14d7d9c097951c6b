@@ -1,0 +1,11 @@
+package com.oak.productlist.DTO;
+
+import com.oak.productlist.entity.ProductEntity;
+
+public record ProductResponseDTO(Long id, String name, String description, Double value, String available) {
+
+	public ProductResponseDTO(ProductEntity productEntity) {
+		this(productEntity.getId(), productEntity.getName(), productEntity.getDescription(),
+				productEntity.getValue(), productEntity.getAvailable());
+	}
+}

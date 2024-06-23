@@ -29,6 +29,7 @@ public class ProductEntity {
 	private String available;
 	
 	
+	
 	public ProductEntity() {
 	}
 

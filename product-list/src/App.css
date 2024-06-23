@@ -1,0 +1,27 @@
+.container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    color: #000000;
+}   
+
+.product-list{
+    background-color: #1e2326;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.button{
+    margin-bottom: 5px;
+    background-color: #009540;  
+    color: #ffffff;
+    width: 20%;
+    font-size: 22px;
+}

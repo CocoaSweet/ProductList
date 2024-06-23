@@ -1,0 +1,14 @@
+package com.oak.productlist.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import com.oak.productlist.DTO.ProductResponseDTO;
+import com.oak.productlist.entity.ProductEntity;
+
+public interface ProductService {
+
+	List<ProductResponseDTO> findAllProduct();
+	Optional<ProductResponseDTO> findById(Long id);
+	ProductEntity saveProduct(ProductEntity productEntity);
+}

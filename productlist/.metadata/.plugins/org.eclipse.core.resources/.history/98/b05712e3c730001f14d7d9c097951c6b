@@ -1,0 +1,5 @@
+package com.oak.productlist.DTO;
+
+public record ProductResponseDTO(Long id, String name, String description, Double value, String available) {
+
+}
