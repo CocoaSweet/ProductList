@@ -1,0 +1,5 @@
+package com.oak.productlist.config;
+
+public class WebConfig {
+
+}

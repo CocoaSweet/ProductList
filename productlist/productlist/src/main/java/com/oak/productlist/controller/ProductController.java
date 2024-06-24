@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.oak.productlist.entity.ProductEntity;
 import com.oak.productlist.service.ProductService;
 
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RestController
 @RequestMapping("/product")
 public class ProductController {
@@ -25,7 +26,7 @@ public class ProductController {
 		this.productService = productService;
 	}
 	
-	@CrossOrigin(origins = "*", allowedHeaders = "*")
+	@CrossOrigin(origins = "", allowedHeaders = "*")
 	@GetMapping
 	public List<ProductEntity> findAllProduct(){
 		return productService.findAllProduct().stream().sorted(Comparator.comparing(ProductEntity::getValue)).collect(Collectors.toList());
