@@ -1,9 +1,9 @@
 ##connect to database
 spring.datasource.driver-class-name=org.postgresql.Driver
 spring.application.name=productlist
-spring.datasource.url=jdbc:postgresql://viaduct.proxy.rlwy.net:59725/railway
+spring.datasource.url=jdbc:postgresql://postgres:DFdMmCGqjpzJXTWGRhvRgtCCKWFJSlic@monorail.proxy.rlwy.net:21481/railway
 spring.datasource.username=postgres
-spring.datasource.password=vGdoHvAJmfFPYybjRTyRWOLWmgvmeCnu
+spring.datasource.password=P@ssw0rd psql -h monorail.proxy.rlwy.net -U postgres -p 21481 -d railway
 
 ##JPA Config
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
